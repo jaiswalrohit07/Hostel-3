@@ -43,7 +43,7 @@ a:focus {
 .header {
     position: relative;
     width: 100%;
-    padding: 15px 0;
+    padding: 0px 0;
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -72,7 +72,7 @@ a:focus {
 
 .header .topbar .topbar-col {
     display: inline-block;
-    padding: 0 15px;
+    padding: 10px 10px;
     margin-bottom: 15px;
 }
 
@@ -145,12 +145,12 @@ a:focus {
 @media (max-width: 992px) {
     .header .brand {
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
     
     .header .topbar {
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     
     .header .topbar .topbar-col {
@@ -168,7 +168,7 @@ a:focus {
     }
     
     .header a.nav-link {
-        padding: 5px 0;
+        padding: 7px 10px;
     }
     
     .header .dropdown-menu {
@@ -604,6 +604,7 @@ a:focus {
     
     .about .row {
         margin: 0;
+        
     }
     
     .about .col-md-6:first-child {
@@ -1381,6 +1382,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 60px 0;
+    justify-content: center;
+    
 }
 
 @media (min-width: 768px) {
@@ -1397,17 +1400,22 @@ a:focus {
     padding: 30px;
     background: rgba(0, 0, 0, .05);
     border-radius: 300px 300px 5px 5px;
+    
 }
 
 .team .team-img {
     position: relative;
     width: 100%;
     overflow: hidden;
+    
+    
 }
 
 .team .team-img img {
     width: 100%;
     border-radius: 300px;
+    
+
 }
 
 .team .team-text {
