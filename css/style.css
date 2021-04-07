@@ -821,7 +821,7 @@ a:focus {
 .faqs .card-header {
     padding: 0;
     border: none;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 
 .faqs .card-header a {
